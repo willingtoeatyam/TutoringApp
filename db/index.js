@@ -34,7 +34,7 @@ const connectDB = async() => {
 
         console.log(`Mongo DB is connected...`)
 
-        //Seed data(?)
+        //Seed data
     } catch (error) {
         console.error(err.message);
 
